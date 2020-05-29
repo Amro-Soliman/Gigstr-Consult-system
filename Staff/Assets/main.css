@@ -1,0 +1,508 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/*******
+#nav a {
+    
+    color: rgb(97, 93, 93);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin: 6px;
+    width: 100%;
+    
+  }
+ 
+  #nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+   
+  }
+  #container {
+    background-color: darkgrey;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 229px;
+    position: fixed;
+    }
+
+  #nav li {
+
+    padding: 5px;
+    width: 100%;
+}
+.clientListLinks {
+     
+  color: burlywood;
+  text-decoration: none;
+ }
+
+ 
+ .active{
+  background: #c3c5c7;
+ }
+
+ 
+
+#main 
+
+ {
+    height: 100vh;
+    width: 1052px;
+    background-color: black;
+    position: absolute;
+    top: 0; 
+    left: 229px;
+    color: antiquewhite;
+    }
+
+#logo {
+
+margin: 15px;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+#loggedUser {
+
+position: absolute;
+left: 60px;
+bottom: 44px;
+color: gainsboro;
+}
+#logoutbtn {
+  background-color: burlywood;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 60px;
+}
+#logoutbtn2 {
+background-color: burlywood;
+color: white;
+position: absolute;
+bottom: -17px;
+left: 0px;
+}
+
+.buttonLink {
+
+  font: bold 11px Arial;
+text-decoration: none;
+color: aliceblue;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;
+border-radius: 5px;
+display: block;
+width: 131px;
+height: 33px;
+text-align: center;
+padding: 9px;
+position: absolute;
+top: 300px;
+left: 592px;
+border-color: blueviolet;
+}
+
+#table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  position: absolute;
+left: 329px;
+top: 200px;
+color: antiquewhite;
+}
+
+#table2 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  position: absolute;
+left: -7px;
+top: 1px;
+color: antiquewhite;
+width: 600px;
+
+}
+ 
+
+
+#fullScreen {
+
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+
+
+}
+
+#signup {
+
+color: antiquewhite;
+position: absolute;
+top: 70px;
+}
+
+.clients,  .addClient {
+
+background-color: beige;
+
+}
+
+
+#account {
+
+  font: bold 11px Arial;
+text-decoration: none;
+color: aliceblue;
+padding: 2px 6px 2px 6px;
+border-top: 1px solid #CCCCCC;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+border-left: 1px solid #CCCCCC;
+border-radius: 5px;
+display: block;
+width: 131px;
+height: 33px;
+text-align: center;
+padding: 9px;
+position: absolute;
+top: 250px;
+left: 50px;
+background-color: rgb(25, 150, 145);}
+
+#cHeader {
+
+position: absolute;
+top: 95px;
+left: 255px;
+}
+
+#clientSearch {
+
+  z-index: 1;
+position: absolute;
+left: 527px;
+}
+
+
+#contact {
+
+  position: absolute;
+  top: 272px;
+  left: 90px;
+}
+
+#contactInfo 
+
+{
+  position: absolute;
+  top: 400px;
+  left: 85px;
+  }
+
+  .spanMail 
+
+  {
+    padding: 185px;
+    }
+
+    #profilePicture 
+
+  {
+    width: 108px;
+border-radius: 53px;
+position: absolute;
+left: -146px;
+top: -16px;
+      }
+
+      #logo {
+        width: 108px;
+        height: 109px;
+        background-color: pink;
+        border-radius: 116px;
+        line-height: 104px;
+        text-align: -webkit-center;
+        font-size: -webkit-xxx-large;
+        position: absolute;
+        left: -161px;
+        top: -31px;
+        z-index: 1;
+        }
+        .test  a{
+          position: absolute;
+          left:500px;
+          width: 140px;
+          color: burlywood;
+  text-decoration: none;
+          
+        }
+
+        table, th, td {
+          border: 1px solid rgb(241, 241, 241);
+          border-collapse: collapse;
+          width: 319px;
+          padding: 6px;
+          
+          border-right: none;
+          border-left: none;
+          border-bottom: none;
+          border-top-color: gainsboro;
+        }
+
+        table {
+
+          position: absolute;
+          left:250px;
+          top: 150px;
+        }
+
+        #search4 {
+          width: 265px;
+border-radius: 5px;
+background-color: dimgrey;
+color: floralwhite;
+        }
+
+        #submitb {
+          width: 58px;
+height: 25x;
+border-radius: 6px;
+background-color: burlywood;
+
+        }
+
+        #clientSearch {
+
+          position: absolute;
+          top: 50px;
+        }
+
+        #sok {
+          position: absolute;
+          color: darkcyan;
+          z-index: 1;
+          top: 187px;
+          left:300px;
+        }
+        #searchResult {
+          position: absolute;
+          top: 273px;
+          left: -200px;
+        }
+
+        .label {
+
+         position: absolute;
+         left: 300px;
+         
+        }
+
+        .input {
+          position: absolute;
+          left: 150px;
+          background-color:grey;
+          color: antiquewhite;
+        }
+
+        #subm {
+
+          position: absolute;
+          left: 294px;
+          width: 130px;
+          height: 32px;
+          background-color: darkcyan;
+          color: white;
+          
+        }
+        #clientHelp {
+          position: relative;
+          top: -31px;
+          left: 172px;
+        }
+        #contactHelp {
+          position: relative;
+          top: -35px;
+          left: 225px;
+        }
+        #contactPerson  {
+          position: absolute;
+          top: 82px;
+        }
+        .removeIcon {
+          position: absolute;
+          left: 664px;
+        }
+      .remove, .remove2 {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+      #output {
+        position: relative;
+top: -21px;
+        left: 320px;
+        
+        color: rgba(224, 224, 224, 0.664);
+      }
+
+     #lank {
+        position: absolute;
+        left: 400px;
+        z-index: 1;
+        top: 89px;
+        }
+        #desc
+        {
+          position: absolute;
+          left: -139px;
+          top: 131px;
+        }
+
+****/
+        .img {
+
+    width: 42px;
+    border-radius: 32px;
+    padding: 5px;
+        }
+        #kundkort-container {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          overflow: hidden;
+          position: relative;
+      }
+      
+      #kundkort-header {
+          width: 300px;
+          height: 100vh;
+          background: #464546;
+          position: fixed;
+          top: 0;
+          left: 0;
+          padding: 30px;
+      }
+      
+      #kundkort-main {
+          width: calc(100% - 300px);
+          margin-left: 300px;
+          height: auto;
+          min-height: 100vh;
+          background: #e3e3e3;
+          padding: 50px;
+      }
+      .removeImage, .removePDF, .removeReport {
+        width: 25px;
+      cursor: pointer;
+       
+    }
+    .editImage {
+
+      width: 25px;
+
+    }
+
+/*** HEADER *****/
+#kundkort-header #nav {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#kundkort-header a {
+  color: white;
+}
+
+
+/*** END OF HEADER *****/
+
+
+
+/*** GIGSTR LIST *****/
+
+.gigstr-list img, .removePDF {
+  width: 35px;
+  border-radius: 50px;
+}
+
+/*** END OF GIGSTR LIST *****/
+
+/*********** KUNDPROFIL **********/
+
+.gig-wrapper {
+  width: 100%;
+  border-bottom: 1px solid white;
+  overflow: hidden;
+}
+
+.kund-gig-header {
+  cursor: pointer;
+  padding: 20px 0;
+}
+
+.gig-wrapper h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.kund-gig-container {
+  padding: 50px 0 50px 50px;
+}
+
+.gig-wrapper h3, .gig-open, .gig-delar-rubrik, .open-del {
+  display: inline-block;
+}
+
+.gig-open, .open-del {
+  float: right;
+}
+
+.gig-delar-wrapper {
+  margin-bottom: 50px;;
+}
+
+
+/********** END OF KUNDPROFIL **********/
+p.warrning-noti {
+width: 70px;
+height: 26px;
+background-color: floralwhite;
+text-align: center;
+padding: 4px;
+border-radius: 12px;
+color: indianred;
+}
+div.success-noti 
+{
+  width: 70px;
+  height: 26px;
+  background-color: royalblue;
+  text-align: center;
+  padding: 4px;
+  border-radius: 12px;
+}
+a.booking {
+  color: azure;
+  width: 100%;
+  display: inline-block;
+}
